@@ -1,0 +1,22 @@
+ohj
+kok idade.
+des altura.
+tek nome.
+tot estudante.
+
+kir("=== Cadastro de Pessoa ===").
+kir("Qual o seu nome?").
+lue(nome).
+kir("Qual a sua idade?").
+lue(idade).
+kir("Qual a sua altura em metros? (ex: 1.75)").
+lue(altura).
+kir("Voce e estudante? (1 para sim, 0 para nao)").
+lue(estudante).
+
+kir("--- Dados cadastrados ---").
+kir(nome).
+kir(idade).
+kir(altura).
+kir(estudante).
+lop

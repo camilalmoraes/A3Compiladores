@@ -1,0 +1,17 @@
+ohj
+kok i, n, fatorial.
+
+kir("=== Calculadora de Fatorial ===").
+kir("Digite um numero inteiro positivo:").
+lue(n).
+
+fatorial := 1.
+var i de 1 ate n {
+    fatorial := fatorial * i.
+}
+
+kir("O fatorial de").
+kir(n).
+kir("e:").
+kir(fatorial).
+lop

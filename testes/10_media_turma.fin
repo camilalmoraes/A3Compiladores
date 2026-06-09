@@ -1,0 +1,38 @@
+ohj
+kok i, n, cont_ap, cont_rp.
+des nota, soma, media.
+
+kir("=== Media da Turma ===").
+kir("Quantos alunos na turma?").
+lue(n).
+
+soma    := 0.0.
+cont_ap := 0.
+cont_rp := 0.
+
+var i de 1 ate n {
+    kir("Nota do aluno:").
+    lue(nota).
+    soma := soma + nota.
+    jos (nota >= 7.0) {
+        cont_ap := cont_ap + 1.
+    } muu {
+        cont_rp := cont_rp + 1.
+    }
+}
+
+media := soma / n.
+kir("--- Resultado da Turma ---").
+kir("Media geral:").
+kir(media).
+kir("Aprovados:").
+kir(cont_ap).
+kir("Reprovados:").
+kir(cont_rp).
+
+jos (media >= 7.0) {
+    kir("Turma: Bom desempenho!").
+} muu {
+    kir("Turma: Precisa melhorar.").
+}
+lop

@@ -1,0 +1,12 @@
+ohj
+kok i, n, resultado.
+
+kir("=== Tabuada ===").
+kir("Digite o numero:").
+lue(n).
+
+var i de 1 ate 10 {
+    resultado := n * i.
+    kir(resultado).
+}
+lop

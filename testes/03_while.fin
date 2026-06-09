@@ -1,0 +1,31 @@
+ohj
+kok numero, soma, cont, maior.
+
+kir("=== Soma de Numeros ===").
+kir("Digite numeros inteiros.").
+kir("Digite 0 para parar.").
+soma := 0.
+cont := 0.
+maior := 0.
+lue(numero).
+
+kun (numero != 0) {
+    soma := soma + numero.
+    cont := cont + 1.
+    jos (numero > maior) {
+        maior := numero.
+    }
+    lue(numero).
+}
+
+jos (cont > 0) {
+    kir("Quantidade de numeros digitados:").
+    kir(cont).
+    kir("Soma total:").
+    kir(soma).
+    kir("Maior numero:").
+    kir(maior).
+} muu {
+    kir("Nenhum numero foi digitado.").
+}
+lop

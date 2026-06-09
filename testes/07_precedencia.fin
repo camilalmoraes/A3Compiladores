@@ -1,0 +1,27 @@
+ohj
+kok a, b, c, r1, r2, r3, r4.
+
+kir("=== Precedencia de Operadores ===").
+kir("Digite o valor de A:").
+lue(a).
+kir("Digite o valor de B:").
+lue(b).
+kir("Digite o valor de C:").
+lue(c).
+
+r1 := a + b * c.
+kir("A + B * C =").
+kir(r1).
+
+r2 := (a + b) * c.
+kir("(A + B) * C =").
+kir(r2).
+
+r3 := a * b + c * b.
+kir("A * B + C * B =").
+kir(r3).
+
+r4 := a + b * c - b / a.
+kir("A + B * C - B / A =").
+kir(r4).
+lop

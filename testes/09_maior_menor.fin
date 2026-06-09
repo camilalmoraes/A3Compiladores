@@ -1,0 +1,39 @@
+ohj
+kok i, n, valor, maior, menor, soma.
+des media.
+
+kir("=== Analise de Valores ===").
+kir("Quantos numeros voce vai digitar?").
+lue(n).
+
+kir("Digite o primeiro numero:").
+lue(valor).
+maior := valor.
+menor := valor.
+soma  := valor.
+i := 1.
+
+kun (i < n) {
+    kir("Digite o proximo numero:").
+    lue(valor).
+    soma := soma + valor.
+    jos (valor > maior) {
+        maior := valor.
+    }
+    jos (valor < menor) {
+        menor := valor.
+    }
+    i := i + 1.
+}
+
+media := soma / n.
+kir("--- Resultados ---").
+kir("Maior:").
+kir(maior).
+kir("Menor:").
+kir(menor).
+kir("Soma:").
+kir(soma).
+kir("Media:").
+kir(media).
+lop

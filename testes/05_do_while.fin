@@ -1,0 +1,20 @@
+ohj
+kok senha, tentativas.
+
+kir("=== Sistema de Senha ===").
+kir("A senha correta e 1234.").
+tentativas := 0.
+
+do {
+    kir("Digite a senha:").
+    lue(senha).
+    tentativas := tentativas + 1.
+    jos (senha != 1234) {
+        kir("Senha incorreta! Tente novamente.").
+    }
+} kun (senha != 1234).
+
+kir("Acesso liberado!").
+kir("Tentativas usadas:").
+kir(tentativas).
+lop

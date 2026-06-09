@@ -1,0 +1,27 @@
+ohj
+kok idade.
+des salario.
+tot elegivel.
+
+kir("=== Analise de Perfil ===").
+kir("Digite sua idade:").
+lue(idade).
+kir("Digite seu salario:").
+lue(salario).
+
+elegivel := vaara.
+
+jos (idade >= 18) {
+    jos (salario >= 2000.0) {
+        elegivel := totta.
+        kir("Perfil: Cliente Premium").
+        kir("Beneficios: cartao platinum, limite alto.").
+    } muu {
+        kir("Perfil: Cliente Padrao").
+        kir("Beneficios: cartao comum, limite medio.").
+    }
+} muu {
+    kir("Perfil: Sem elegibilidade").
+    kir("Motivo: menor de idade.").
+}
+lop

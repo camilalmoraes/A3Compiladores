@@ -1,0 +1,25 @@
+ohj
+kok nota.
+
+kir("=== Sistema de Notas ===").
+kir("Digite a nota do aluno (0 a 10):").
+lue(nota).
+
+jos (nota >= 9) {
+    kir("Conceito: A").
+    kir("Situacao: Aprovado com louvor!").
+} muu {
+    jos (nota >= 7) {
+        kir("Conceito: B").
+        kir("Situacao: Aprovado.").
+    } muu {
+        jos (nota >= 5) {
+            kir("Conceito: C").
+            kir("Situacao: Recuperacao.").
+        } muu {
+            kir("Conceito: D").
+            kir("Situacao: Reprovado.").
+        }
+    }
+}
+lop
